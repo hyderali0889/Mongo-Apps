@@ -1,0 +1,16 @@
+{
+  "name": "multer_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
+  "author": "Hayder Ali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "*",
+    "nodemon": "^2.0.22"
+  }
+}
