@@ -4,7 +4,7 @@ const Mongoose = require("mongoose");
 const connectToDB  = async() =>{
 
 
-    const mongoose = await Mongoose.connect("mongodb+srv://hyderali3226:adminFunc0889@adminfunc.wlnhw1e.mongodb.net/test")
+    const mongoose = await Mongoose.connect("")
 
     console.log(`MONGO  ----------------- CONNECTED TO DB`);
  }
