@@ -1,0 +1,191 @@
+body{
+    
+ 
+}
+
+
+.navbar {
+    background: #9CECFB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  padding: 10px;
+  
+}
+.navbar-brand {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  font-size: 20PX;
+ margin: 0 10px;
+ font-family: Arial, sans-serif;
+}
+
+.smallimage {
+  height: 200px;
+  width: 100%;
+  background-color: aliceblue;
+}
+.bs {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contaner {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    height: 90vh; /* Set the height to full viewport height */
+    
+  }
+  
+  /* Style the login image */
+  .login-image {
+    flex: 1; /* Take 50% of the container's width */
+    padding: 20px; /* Add some spacing around the image */
+    background-color: transparent;
+    
+
+
+  }
+  
+  /* Style the login form */
+  .login-form {
+    flex: 1; /* Take 50% of the container's width */
+    padding: 30px; /* Add some spacing around the form */
+    border-radius: 5px;
+    max-width: 600px;
+    margin-right: 50px;
+    border:  1px solid gainsboro;
+
+  }
+.form{
+    width: 500px; /* Optional: Set a maximum width for the form */
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column
+
+
+  
+}
+/* booking from style  ============ */
+/* Apply CSS reset to ensure consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set up Grid for the form-container */
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Divide the container into three equal columns */
+    grid-gap: 20px; /* Add spacing between the columns */
+    max-width: 800px; /* Optional: Set a maximum width for the form */
+    margin: 0 auto; /* Optional: Center the form on the page */
+    
+  }
+  
+  /* Style the form columns */
+  .form-column {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the form headings */
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* view deatails rooms style*/
+  /* Apply CSS reset to ensure consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+  }
+  
+  .room-details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .room-images {
+    flex: 1;
+  }
+  
+  .room-images img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .room-information {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-information h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .room-type,
+  .room-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .room-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .amenities-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .amenities-list li {
+    margin-bottom: 5px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  

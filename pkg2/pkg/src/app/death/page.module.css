@@ -1,0 +1,123 @@
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+}
+.input{
+    padding: 20px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.input, .textArea{
+    padding: 20px;
+    border: none;
+    border-color: #bbb;
+    border: 2px solid #bbb;
+    border-radius: 20px;
+    background-color: transparent;
+    color: gray;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:  40px;
+    margin-top: 10px;
+   color:  #53c28b;
+    padding: 20px;
+    border: none;
+}
+.button{
+    background-color: #53c28b;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.buttonDead {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #2d3230;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    width: 520px;
+
+  }
+
+.drp{
+    background-color: black;
+}
+.title {
+    -webkit-animation: title 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: title 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+
+@-webkit-keyframes title {
+0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  opacity: 1;
+}
+}
+@keyframes title {
+0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  opacity: 1;
+}
+}
+.input {
+    -webkit-animation: input 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: input 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  
+  
+  
+  @-webkit-keyframes input {
+  0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+  }
+  40% {
+  opacity: 0.6;
+  }
+  100% {
+  opacity: 1;
+  }
+  }
+  @keyframes input {
+  0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+  }
+  40% {
+  opacity: 0.6;
+  }
+  100% {
+  opacity: 1;
+  }
+  }
+  

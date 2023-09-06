@@ -1,0 +1,19 @@
+.container{
+    height: 100px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .logo{
+     font-weight: bold;
+     font-size: 22px;
+     color:  #53c28b;
+ }
+ .links{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+
+ }
